@@ -1,36 +1,47 @@
-body{
-    background-color: rgb(211, 202, 219);
-
-}
-section{
-    border: 3px rgba(216, 22, 22, 0.466) solid;
-}
-.header{
-    border: 3px solid rgb(87, 15, 36);
+body {
+    background-color: #e4e4e448;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* class */
+  .header {
+    /* border: 3px solid #000; */
     display: flex;
-    justify-content: space-between ;
-    color: rgb(22, 18, 18);
-    font-size: 20px ;
-    font-style: italic;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    padding:10px ;
+    justify-content: space-between;
+    color: pink;
+    font-family: "Courier New", Courier, monospace;
+    padding: 10px;
     margin: 20px;
-}
-
-.header a{
-    text-decoration: none;
-}
-.header a:hover{
-    color: blue;
-    background-color: red;
+  
+  }
+  
+  .bg-gray,
+  .bg1,
+  .bg2 {
+    background: rgb(9, 132, 240);
+    background: linear-gradient(
+      90deg,
+      rgba(9, 132, 240, 0.3604035364145658) 0%,
+      rgba(255, 0, 200, 0.2679665616246498) 100%
+    );
+  }
+  
+  .flex {
     
-}
-.HEADER1 {
- /* background-color: blue; */
- border: 0,5cm;
-}
-.header p:hover{
+    position: relative;
+  }
+  
+  .item {
+      
+    width: 50%;
+    margin: 50px;
+  }
+  
+  .btn {
     background-color: black;
-    color: blue;
-}
+  }
+  .item h1 p button{
+      padding: 30px;
+      margin: 30;
+  }
